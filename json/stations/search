@@ -1,10 +1,10 @@
 [
   {
-    "stationuuid": "a1b2c3d4-radio357-0001-0001-000000000001",
+    "stationuuid": "DF8F4569-41C3-4BCA-9FF9-C9544D650BF6",
     "name": "Radio 357",
-    "url": "https://stream.radio357.pl/?s=web",
-    "url_resolved": "https://stream.radio357.pl/?s=web",
-    "favicon": "https://radio357.pl/wp-content/uploads/2022/04/radio357-logo.svg",
+    "url": "https://n26a-eu.rcs.revma.com/z2ufx89uxquvv?rj-ttl=5&rj-tok=AAABnJQx3-oA2ZUu_K6W6pPpaw",
+    "url_resolved": "https://n26a-eu.rcs.revma.com/z2ufx89uxquvv?rj-ttl=5&rj-tok=AAABnJQx3-oA2ZUu_K6W6pPpaw",
+    "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokU6nmWOS7q9Y091jumeldXx0Q3mkN6uy5g&s",
     "tags": "polish,talk,music",
     "country": "Poland",
     "countrycode": "PL",
@@ -14,11 +14,11 @@
     "clickcount": 9999
   },
   {
-    "stationuuid": "a1b2c3d4-nowyswiat-0001-0001-000000000002",
+    "stationuuid": "77E61015-4D45-40F1-A460-EE30CDD15C7B",
     "name": "Radio Nowy Świat",
-    "url": "https://stream.rcs.revma.com/ypqt40u0x1zuv",
-    "url_resolved": "https://stream.rcs.revma.com/ypqt40u0x1zuv",
-    "favicon": "https://nowyswiat.online/wp-content/uploads/2020/09/fala-690x690.png",
+    "url": "http://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "url_resolved": "http://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "favicon": "https://dl.memuplay.com/new_market/img/com.thehouseofcode.radio_nowy_swiat.icon.2021-03-20-18-25-39.png",
     "tags": "polish,music,independent",
     "country": "Poland",
     "countrycode": "PL",
