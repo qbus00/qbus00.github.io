@@ -1,0 +1,30 @@
+[
+  {
+    "stationuuid": "a1b2c3d4-radio357-0001-0001-000000000001",
+    "name": "Radio 357",
+    "url": "https://stream.radio357.pl/?s=web",
+    "url_resolved": "https://stream.radio357.pl/?s=web",
+    "favicon": "https://radio357.pl/wp-content/uploads/2022/04/radio357-logo.svg",
+    "tags": "polish,talk,music",
+    "country": "Poland",
+    "countrycode": "PL",
+    "language": "polish",
+    "codec": "AAC",
+    "bitrate": 128,
+    "clickcount": 9999
+  },
+  {
+    "stationuuid": "a1b2c3d4-nowyswiat-0001-0001-000000000002",
+    "name": "Radio Nowy Świat",
+    "url": "https://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "url_resolved": "https://stream.rcs.revma.com/ypqt40u0x1zuv",
+    "favicon": "https://nowyswiat.online/wp-content/uploads/2020/09/fala-690x690.png",
+    "tags": "polish,music,independent",
+    "country": "Poland",
+    "countrycode": "PL",
+    "language": "polish",
+    "codec": "MP3",
+    "bitrate": 192,
+    "clickcount": 8888
+  }
+]
