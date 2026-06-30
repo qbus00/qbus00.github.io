@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="oc">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- ============================================
+         Primary identity
+         ============================================ -->
+    <title>Ràdio Lenga d'Òc - Radio occitane Montpellier | Écouter en direct</title>
+    <meta name="description" content="Ràdio Lenga d'Òc - La votz d'Occitània. Radio associative occitane à Montpellier. Écoutez en direct sur 95.4 FM, podcasts, chroniques et émissions en occitan et français." />
+    <meta name="author" content="Association Ràdio Lenga d'Òc" />
+    <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+    <!-- Icons & manifest -->
+    <link rel="icon" type="image/x-icon" href="/logo.ico" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/lengadoc.png" />
+    <link rel="apple-touch-icon" href="/lengadoc.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- ============================================
+         Language alternates (bilingual OC/FR same URLs)
+         ============================================ -->
+    <link rel="alternate" hreflang="oc" href="https://radiolengadoc.com/" />
+    <link rel="alternate" hreflang="fr" href="https://radiolengadoc.com/" />
+    <link rel="alternate" hreflang="x-default" href="https://radiolengadoc.com/" />
+    <meta http-equiv="content-language" content="oc, fr" />
+
+    <!-- ============================================
+         Geo targeting
+         ============================================ -->
+    <meta name="geo.region" content="FR-OCC" />
+    <meta name="geo.placename" content="Montpellier, Occitanie" />
+    <meta name="geo.position" content="43.5763;3.8416" />
+    <meta name="ICBM" content="43.5763, 3.8416" />
+
+    <!-- ============================================
+         Open Graph
+         ============================================ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://radiolengadoc.com/" />
+    <meta property="og:title" content="Ràdio Lenga d'Òc - Radio occitane Montpellier | Écouter en direct" />
+    <meta property="og:description" content="Ràdio Lenga d'Òc - La votz d'Occitània. Radio associative occitane à Montpellier. Écoutez en direct sur 95.4 FM, podcasts et émissions en occitan." />
+    <meta property="og:image" content="https://radiolengadoc.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Ràdio Lenga d'Òc — La votz d'Occitània" />
+    <meta property="og:locale" content="oc_FR" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:site_name" content="Ràdio Lenga d'Òc" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ràdio Lenga d'Òc - Radio occitane Montpellier | Écouter en direct" />
+    <meta name="twitter:description" content="Ràdio Lenga d'Òc - Radio associative occitane à Montpellier. Écoutez en direct sur 95.4 FM, podcasts et émissions en occitan." />
+    <meta name="twitter:image" content="https://radiolengadoc.com/og-image.jpg" />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://radiolengadoc.com/" />
+
+    <!-- ============================================
+         Performance hints
+         ============================================ -->
+    <link rel="preconnect" href="https://stream.radiolengadoc.com" crossorigin />
+    <link rel="preconnect" href="https://radiolengadoc.com" />
+    <link rel="dns-prefetch" href="https://stream.radiolengadoc.com" />
+    <link rel="dns-prefetch" href="https://stream-ssl.radios-arra.fr" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+
+    <!-- ============================================
+         JSON-LD: Organization (publisher identity)
+         Visible without JS — improves E-E-A-T signals
+         ============================================ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://radiolengadoc.com/#organization",
+      "name": "Association Ràdio Lenga d'Òc",
+      "alternateName": ["Radio Lengadoc", "Radio Languedoc", "Ràdio Lengadòc"],
+      "url": "https://radiolengadoc.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://radiolengadoc.com/lengadoc.png",
+        "width": 512,
+        "height": 512
+      },
+      "email": "adm@radiolengadoc.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "450 Rue Alexander Fleming",
+        "addressLocality": "Saint-Jean-de-Védas",
+        "postalCode": "34430",
+        "addressRegion": "Occitanie",
+        "addressCountry": "FR"
+      },
+      "sameAs": [
+        "https://www.facebook.com/radiolengadoc.montpellier/",
+        "https://www.youtube.com/@rlotechnique7169"
+      ]
+    }
+    </script>
+
+    <!-- Google Analytics — deferred to after LCP, skipped for bots -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      window.global = window;
+
+      (function loadGA() {
+        // Skip GA for known bots to keep their crawl budget clean
+        if (/bot|crawl|spider|slurp|googlebot|bingbot|duckduckbot|yandex|baiduspider|facebookexternalhit|twitterbot|linkedinbot|whatsapp|applebot|gptbot|chatgpt|perplexity|claudebot/i.test(navigator.userAgent)) return;
+
+        function init() {
+          var s = document.createElement('script');
+          s.src = 'https://www.googletagmanager.com/gtag/js?id=G-YBYHJ9BKDH';
+          document.head.appendChild(s);
+          gtag('js', new Date());
+          gtag('config', 'G-YBYHJ9BKDH');
+        }
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(init);
+        } else {
+          setTimeout(init, 3000);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-vGnRyKbg.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-react-BMLqBVVs.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-icons-B8QG7iUg.js">
+    <link rel="modulepreload" crossorigin href="/assets/vendor-supabase-DMy4srAv.js">
+    <link rel="modulepreload" crossorigin href="/assets/detail-pages-DhMO09-H.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-C_rIMcaN.css">
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- ============================================
+         <noscript> SEO fallback
+         Crawlers without JS execution still get the
+         essential textual content + key links.
+         ============================================ -->
+    <noscript>
+      <div style="max-width:780px;margin:2rem auto;padding:1.5rem;font-family:system-ui,sans-serif;line-height:1.6;color:#0f172a">
+        <h1>Ràdio Lenga d'Òc — La votz d'Occitània</h1>
+        <p>Radio associative occitane diffusant en direct sur <strong>95.4 FM</strong> à Montpellier, Sète et Alès, et en <strong>DAB+</strong> sur Montpelhièr estenfo, Niça local et Nimes local.</p>
+        <p>Émissions et chroniques bilingues occitan / français depuis 2000.</p>
+        <h2>Liens essentiels</h2>
+        <ul>
+          <li><a href="https://stream.radiolengadoc.com/live">Écouter le flux en direct</a></li>
+          <li><a href="https://radiolengadoc.com/don">Soutenir la radio</a></li>
+          <li><a href="https://radiolengadoc.com/mentions-legales">Mentions légales</a></li>
+          <li><a href="https://radiolengadoc.com/confidentialite">Politique de confidentialité</a></li>
+          <li><a href="https://www.facebook.com/radiolengadoc.montpellier/">Facebook</a></li>
+          <li><a href="https://www.youtube.com/@rlotechnique7169">YouTube</a></li>
+        </ul>
+        <p><strong>Contact :</strong> adm@radiolengadoc.com — 450 Rue Alexander Fleming, 34430 Saint-Jean-de-Védas, Occitanie, France.</p>
+        <p><em>L'expérience complète (lecteur audio, podcasts, grille des programmes, actualités) nécessite l'activation de JavaScript.</em></p>
+      </div>
+    </noscript>
+
+  </body>
+</html>

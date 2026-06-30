@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PTW5TMLV');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBZKYYLF97"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-EBZKYYLF97');
+    </script>
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "wgrm7zd9kt");
+    </script>
+    <!-- End Microsoft Clarity -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUAA 99.9 FM - Salt Lake City Community Radio</title>
+
+    <!-- PWA meta tags -->
+    <meta name="theme-color" content="#111111">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="KUAA 99.9 FM">
+    <meta name="application-name" content="KUAA 99.9 FM">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Preconnect hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://stream.xmission.com">
+    <link rel="preconnect" href="https://images.ctfassets.net">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@400;500;600;700&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="KUAA 99.9 FM is a low powered FM community radio station broadcasting in Salt Lake City. Specializing in musical, cultural, linguistic, and artistic diversity." />
+    <meta name="author" content="Utah Arts Alliance" />
+
+    <meta property="og:title" content="KUAA 99.9 FM - Salt Lake City Community Radio" />
+    <meta property="og:description" content="Low powered FM community radio station specializing in musical, cultural, linguistic, and artistic diversity" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kuaafm.org" />
+    <meta property="og:image" content="https://images.ctfassets.net/jr1jnxepfvjs/9zDyQbUOhPCBxCGWAxOBt/0907f4512c1892943cb59609decd94b7/preview.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="KUAA 99.9FM Community Radio SLC UT - Streaming at kuaafm.org" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@kuaafm" />
+    <meta name="twitter:image" content="https://images.ctfassets.net/jr1jnxepfvjs/9zDyQbUOhPCBxCGWAxOBt/0907f4512c1892943cb59609decd94b7/preview.jpg" />
+    <meta name="twitter:image:alt" content="KUAA 99.9FM Community Radio SLC UT" />
+
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <script type="module" crossorigin src="/assets/index-CMAxNeOx.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cv6Me_nH.css">
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTW5TMLV"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script>
+      // Emergency fallback if React fails to load (DOM APIs only — no raw HTML injection)
+      window.addEventListener('error', function() {
+        var root = document.querySelector('#root');
+        if (!root || root.hasChildNodes()) return;
+        var wrap = document.createElement('div');
+        wrap.style.cssText = 'min-height:100vh;background:#111;color:#fff;padding:2rem;font-family:sans-serif;';
+        var h1 = document.createElement('h1');
+        h1.style.color = '#ffd700';
+        h1.textContent = 'KUAA 99.9 FM';
+        var p = document.createElement('p');
+        p.textContent = 'There was an error loading the full site. Please refresh the page or try again later.';
+        wrap.appendChild(h1);
+        wrap.appendChild(p);
+        root.appendChild(wrap);
+      });
+    </script>
+  </body>
+</html>

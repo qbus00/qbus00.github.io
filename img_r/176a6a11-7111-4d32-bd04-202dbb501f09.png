@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en" data-beasties-container>
+
+<head>
+  <meta charset="utf-8">
+  <title>Egregore Collective</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Egregore Collective",
+      "url": "https://egrego.re",
+      "logo": "https://egrego.re/assets/images/logo.png",
+      "sameAs": [
+        "https://www.instagram.com/egrego.re",
+        "https://soundcloud.com/egreg-re",
+        "https://egregorecollective.bandcamp.com/"
+      ]
+    }
+  </script>
+  <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+<style>html,body{margin:0;padding:0;width:100%;min-height:100dvh;background-color:var(--background);font-size:14px;color:var(--font-black)}:root{--z-index-player:999999;--margin:.5rem;--margin-bottom:4rem;--navbar-height:4rem;--player-height:4rem;--player-height-open:4.5rem;--border-radius:1rem;--background:#efefef;--grey-navbar:#cfcfcf63;--grey-light:#dadada;--player-background:#d4d4d47b;--red:#de0000;--blue:#005cff;--font-black:#1f1f1f;--font-grey:#424242;--p-slider-track-background:#dddddd;--p-slider-range-background:var(--blue);--p-slider-track-border-radius:1rem;--p-slider-handle-background:var(--blue);--p-slider-handle-hover-background:var(--blue);--p-carousel-indicator-width:2.5rem;--p-carousel-indicator-height:.5rem;--p-carousel-indicator-border-radius:1rem;--p-carousel-indicator-background:grey;--p-carousel-indicator-hover-background:grey;--p-carousel-indicator-active-background:var(--grey-navbar);--p-carousel-indicator-list-gap:.8rem;--p-carousel-indicator-list-padding:1rem;--blur:blur(8px);--drop-shadow:drop-shadow(rgba(0, 0, 0, .2) 0px 1px 4px);--transition-ease:all .3s ease;--transform-scale:scale(1.1)}*{scrollbar-width:thin;scrollbar-color:#4b4b4b rgba(255,255,255,0)}</style><link rel="stylesheet" href="styles.8bbbfe0da76c749f.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.8bbbfe0da76c749f.css"></noscript></head>
+
+<body>
+  <app-root></app-root>
+<script src="runtime.b9dd404e2501d352.js" type="module"></script><script src="main.18dcf234973e1bf1.js" type="module"></script></body>
+
+</html>
